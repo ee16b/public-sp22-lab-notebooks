@@ -97,6 +97,7 @@ void loop(void) {
 
     // Project 'result' onto the principal components
     // Hint: 'result' is an array
+    // Hint: the principal components are unit norm
     // Hint: do this entire operation in 1 loop by replacing the '...'
     // YOUR CODE HERE
     for (int i = 0; i < SNIPPET_SIZE; i++) {

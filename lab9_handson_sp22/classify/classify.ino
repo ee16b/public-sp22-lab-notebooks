@@ -111,6 +111,7 @@ void loop(void) {
 
       // Project 'result' onto the principal components
       // Hint: 'result' is an array
+      // Hint: the principal components are unit norm
       // Hint: do this entire operation in 1 loop by replacing the '...'
       // YOUR CODE HERE
       for (int i = 0; i < SNIPPET_SIZE; i++) {
@@ -125,7 +126,7 @@ void loop(void) {
       proj3 -= ...;
 
       // Classification
-      // Use the function 'l2_norm' defined above
+      // Use the function 'l2_norm3' defined above
       // ith centroid: 'centroids[i]'
       float best_dist = 999999;
       int best_index = -1;
